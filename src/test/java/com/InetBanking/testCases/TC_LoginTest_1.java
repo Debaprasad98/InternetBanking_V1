@@ -30,6 +30,7 @@ public class TC_LoginTest_1 extends BaseClass {
 		logger.info("Title verified-->Log in Test Passed");
 
 		}else {
+			CaptureScreenshot(driver,"Logintest");
 			Assert.assertTrue(false);
 			logger.info("Title not verified-->Log in Test Failed");
 
